@@ -30,7 +30,7 @@ public class BloodGeneration : MonoBehaviour
         compteur += Time.deltaTime;
         if(compteur>timer)
         {
-            if(this.transform.childCount<50)
+            if(this.transform.childCount<20)
             {
                 compteur = 0;
                 GameObject temp =Instantiate(_blood,this.transform);
